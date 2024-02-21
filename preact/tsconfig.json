@@ -1,0 +1,16 @@
+{
+	"compilerOptions": {
+		"module": "ESNext",
+		"target": "ESNext",
+		"strict": true,
+		"esModuleInterop": true,
+		"moduleResolution": "Node",
+		"jsx": "react-jsx",
+		"jsxImportSource": "preact",
+		"paths": {
+			"react": ["../node_modules/preact/compat"],
+			"react-dom": ["../node_modules/preact/compat"]
+		}
+	},
+	"exclude": ["vite.config.mts"]
+}

@@ -1,0 +1,12 @@
+{
+	"compilerOptions": {
+		"module": "ESNext",
+		"target": "ESNext",
+		"strict": true,
+		"esModuleInterop": true,
+		"moduleResolution": "Node",
+		"jsx": "react-jsx",
+		"jsxImportSource": "react"
+	},
+	"exclude": ["vite.config.mts"]
+}
